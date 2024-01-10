@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T19:32:42.188Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="mSYvwMCaAuAm5nBiq9B5" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T19:34:53.563Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="8MDfGZJv059-Zeb_2rId" version="22.1.18" type="github">
   <diagram name="Página-1" id="ArsEkwuGPQtcpOPG1bf9">
-    <mxGraphModel dx="1109" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1664" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-61" value="autoSave()" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
           <mxGeometry x="237" y="713.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vaUbkpZmY1Y64efjk2Qr-2" value="todo:&lt;br style=&quot;font-size: 16px;&quot;&gt;Integrar la tabla manual!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="430" y="391.5" width="250" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
