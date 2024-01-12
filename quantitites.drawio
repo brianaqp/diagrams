@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T19:34:53.563Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="8MDfGZJv059-Zeb_2rId" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T20:42:14.947Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="0kDg2dmKteotXtt3ZaiO" version="22.1.18" type="github">
   <diagram name="Página-1" id="ArsEkwuGPQtcpOPG1bf9">
-    <mxGraphModel dx="1664" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1175" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,7 +68,7 @@
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-38" value="addDate()" style="strokeWidth=2;shape=mxgraph.flowchart.start_2;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Helvetica;fontStyle=0;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontColor=default;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
           <mxGeometry x="247" y="70" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bBKTdJ-3Wv-lQ62cRmP5-41" target="bBKTdJ-3Wv-lQ62cRmP5-56" edge="1">
+        <mxCell id="1cdeKlZobP_Rr9OoL44j-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBKTdJ-3Wv-lQ62cRmP5-41" target="1cdeKlZobP_Rr9OoL44j-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-41" value="Set Initial Quantities" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontStyle=0;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontColor=default;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
@@ -88,20 +88,37 @@
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bBKTdJ-3Wv-lQ62cRmP5-56" target="bBKTdJ-3Wv-lQ62cRmP5-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1cdeKlZobP_Rr9OoL44j-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bBKTdJ-3Wv-lQ62cRmP5-56" target="1cdeKlZobP_Rr9OoL44j-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-56" value="QuantitiesProcess()" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
-          <mxGeometry x="210.5" y="423" width="173" height="67" as="geometry" />
+          <mxGeometry x="210.5" y="510" width="173" height="67" as="geometry" />
         </mxCell>
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bBKTdJ-3Wv-lQ62cRmP5-59" target="bBKTdJ-3Wv-lQ62cRmP5-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-59" value="qttSetData()" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
-          <mxGeometry x="208.75" y="563.5" width="176.5" height="66.5" as="geometry" />
+          <mxGeometry x="208.75" y="650.5" width="176.5" height="66.5" as="geometry" />
         </mxCell>
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-61" value="autoSave()" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
-          <mxGeometry x="237" y="713.25" width="120" height="60" as="geometry" />
+          <mxGeometry x="237" y="800.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vaUbkpZmY1Y64efjk2Qr-2" value="todo:&lt;br style=&quot;font-size: 16px;&quot;&gt;Integrar la tabla manual!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="430" y="391.5" width="250" height="130" as="geometry" />
+        <mxCell id="1cdeKlZobP_Rr9OoL44j-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1cdeKlZobP_Rr9OoL44j-1" target="bBKTdJ-3Wv-lQ62cRmP5-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1cdeKlZobP_Rr9OoL44j-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1cdeKlZobP_Rr9OoL44j-1" target="1cdeKlZobP_Rr9OoL44j-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1cdeKlZobP_Rr9OoL44j-1" value="initManualQuantitites()" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" vertex="1" parent="1">
+          <mxGeometry x="198.5" y="380" width="197" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1cdeKlZobP_Rr9OoL44j-4" value="Función que toma el total de los recibidores e inicializa el campo initialTon en la fecha seleccionada." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1cdeKlZobP_Rr9OoL44j-9" value="Función que por cada cambio, acomoda y suma toda, para después pasar al guardado automático" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="510" width="300" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
