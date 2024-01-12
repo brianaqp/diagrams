@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T21:55:18.040Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="KwQnHQDbzZgJGVAk2lUP" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T22:07:28.043Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="Tkhdu2XMGsa_fddXowHW" version="22.1.18" type="github">
   <diagram name="Página-1" id="ArsEkwuGPQtcpOPG1bf9">
-    <mxGraphModel dx="1683" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2515" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,11 +90,17 @@
             <mxPoint x="345" y="717" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fTC0BpnXRnAI57Eslmp5-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBKTdJ-3Wv-lQ62cRmP5-59" target="fTC0BpnXRnAI57Eslmp5-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-59" value="qttSetData()" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
           <mxGeometry x="256.75" y="650.5" width="176.5" height="66.5" as="geometry" />
         </mxCell>
+        <mxCell id="fTC0BpnXRnAI57Eslmp5-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBKTdJ-3Wv-lQ62cRmP5-61" target="fTC0BpnXRnAI57Eslmp5-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-61" value="autoSave()" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
-          <mxGeometry x="285" y="800.25" width="120" height="60" as="geometry" />
+          <mxGeometry x="285" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1cdeKlZobP_Rr9OoL44j-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -113,8 +119,11 @@
         <mxCell id="1cdeKlZobP_Rr9OoL44j-4" value="Función que toma el total de los recibidores e inicializa el campo initialTon en la fecha seleccionada." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="548" y="400" width="300" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="fTC0BpnXRnAI57Eslmp5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1cdeKlZobP_Rr9OoL44j-9" target="bBKTdJ-3Wv-lQ62cRmP5-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1cdeKlZobP_Rr9OoL44j-9" value="Función que por cada cambio, acomoda y suma toda la data por categoría, para después pasar al guardado automático" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="460" width="300" height="90" as="geometry" />
+          <mxGeometry x="70" y="443.13" width="140" height="200.75" as="geometry" />
         </mxCell>
         <mxCell id="fTC0BpnXRnAI57Eslmp5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=14;" edge="1" parent="1" source="fTC0BpnXRnAI57Eslmp5-7" target="bBKTdJ-3Wv-lQ62cRmP5-37">
           <mxGeometry relative="1" as="geometry" />
@@ -176,16 +185,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fTC0BpnXRnAI57Eslmp5-56" value="Depending on dateIndex" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="940" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fTC0BpnXRnAI57Eslmp5-59" value="QuantititesCompareAndSum()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="580" width="182" height="81.5" as="geometry" />
+          <mxGeometry x="1100" y="559.25" width="182" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fTC0BpnXRnAI57Eslmp5-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fTC0BpnXRnAI57Eslmp5-61" target="fTC0BpnXRnAI57Eslmp5-56">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fTC0BpnXRnAI57Eslmp5-61" value="For Category Qtt Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="766" y="510" width="142" height="63" as="geometry" />
         </mxCell>
+        <mxCell id="fTC0BpnXRnAI57Eslmp5-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fTC0BpnXRnAI57Eslmp5-63" target="fTC0BpnXRnAI57Eslmp5-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fTC0BpnXRnAI57Eslmp5-63" value="For Manual Qtt Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="766" y="620" width="142" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="fTC0BpnXRnAI57Eslmp5-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fTC0BpnXRnAI57Eslmp5-69" target="fTC0BpnXRnAI57Eslmp5-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTC0BpnXRnAI57Eslmp5-69" value="Dependiendo del DateIndex, suma y asigna a la referencia de localQuantitites los valores de cada dia." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="450" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fTC0BpnXRnAI57Eslmp5-72" value="Función que le dice a cada componente de Qtt llamado, que actualice su información visible." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="508" y="683" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fTC0BpnXRnAI57Eslmp5-77" value="Guarda todo a la base de datos." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="870" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
