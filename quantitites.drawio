@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T23:33:25.285Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="xBa9pLIjXcu-l3Q6Amb7" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T18:14:11.938Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="nLmHhwrbh9gSpqMGAnqu" version="22.1.21" type="github">
   <diagram name="Página-1" id="ArsEkwuGPQtcpOPG1bf9">
-    <mxGraphModel dx="1902" dy="594" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4338" dy="2364" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="fTC0BpnXRnAI57Eslmp5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="bBKTdJ-3Wv-lQ62cRmP5-26" target="bBKTdJ-3Wv-lQ62cRmP5-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-26" value="add computed Quantities to object" style="fontSize=14;zwfType=basicShape;rounded=0;strokeWidth=2;fontFamily=Helvetica;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
+        <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-26" value="addQuantitites()" style="fontSize=14;zwfType=basicShape;rounded=0;strokeWidth=2;fontFamily=Helvetica;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
           <mxGeometry x="968" y="276" width="160" height="72" as="geometry" />
         </mxCell>
         <mxCell id="bBKTdJ-3Wv-lQ62cRmP5-31" value="Inserta un objeto vacío en la fecha añadida a Quantitites" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -108,7 +108,7 @@
         <mxCell id="fTC0BpnXRnAI57Eslmp5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="1cdeKlZobP_Rr9OoL44j-9" target="bBKTdJ-3Wv-lQ62cRmP5-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="1cdeKlZobP_Rr9OoL44j-9" target="Lu1Ilyan7PfIw8aCQK2B-52">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="1cdeKlZobP_Rr9OoL44j-9" target="Lu1Ilyan7PfIw8aCQK2B-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1cdeKlZobP_Rr9OoL44j-9" value="Función que por cada cambio, acomoda y suma toda la data almacenada en localQuantitites" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -140,7 +140,7 @@
         <mxCell id="fTC0BpnXRnAI57Eslmp5-24" value="&lt;br style=&quot;font-size: 14px;&quot;&gt;Si hay fechas para trabajar:&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Se inserta en cada fecha un objeto vacío, que sirve de reciente" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-505" y="318" width="225" height="202" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="fTC0BpnXRnAI57Eslmp5-26" target="Lu1Ilyan7PfIw8aCQK2B-1">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="fTC0BpnXRnAI57Eslmp5-26" target="Lu1Ilyan7PfIw8aCQK2B-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fTC0BpnXRnAI57Eslmp5-26" value="Assing DB Data to localQuantitites" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;" parent="1" vertex="1">
@@ -194,10 +194,10 @@
         <mxCell id="fTC0BpnXRnAI57Eslmp5-63" value="For Manual Qtt Table" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="766" y="620" width="142" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="fTC0BpnXRnAI57Eslmp5-69" target="fTC0BpnXRnAI57Eslmp5-59">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="fTC0BpnXRnAI57Eslmp5-69" target="fTC0BpnXRnAI57Eslmp5-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fTC0BpnXRnAI57Eslmp5-69" value="Dependiendo del DateIndex, suma y asigna a la referencia de localQuantitites los valores de cada dia." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="fTC0BpnXRnAI57Eslmp5-69" value="Dependiendo del DateIndex, suma y asigna a la referencia de localQuantitites los valores de cada dia. En otras palabras, suma los valores internos." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1041" y="409" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="fTC0BpnXRnAI57Eslmp5-72" value="Función que le dice a cada componente de Qtt llamado, que actualice su información visible." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -206,135 +206,124 @@
         <mxCell id="fTC0BpnXRnAI57Eslmp5-77" value="Guarda todo a la base de datos." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="280" y="870" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-1" value="UpdateQuantitites(&#39;change&#39;, &#39;holds&#39;)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-1" value="updateHolds()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-250" y="940" width="200" height="99.75" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-3" value="Las bodegas al ser editadas en otra parte del programa, se necesitan volver a calcular al inicializar la pagina." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-3" value="Función que actualiza en caso de cambios los valores de las bodegas" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-510" y="933.87" width="230" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-5" target="Lu1Ilyan7PfIw8aCQK2B-9">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;fontColor=default;" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-13" target="Lu1Ilyan7PfIw8aCQK2B-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-5" value="Receivers Total Change" style="strokeWidth=2;shape=mxgraph.flowchart.start_2;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-13" target="i4LuS2lBlb5Qrs457-CX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-13" value="updateQuantitites(cmd, category)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1521.25" y="274" width="157.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;fontColor=default;" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-29" target="Lu1Ilyan7PfIw8aCQK2B-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-29" value="Total Change subscription" style="strokeWidth=2;shape=mxgraph.flowchart.start_2;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1550" y="50" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-9" value="sumReceiversTotal()" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="216" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-11" target="Lu1Ilyan7PfIw8aCQK2B-9">
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-32" target="Lu1Ilyan7PfIw8aCQK2B-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Función que obtiene el total del tonelaje y lo declara en su variable&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="129.62" width="170" height="89" as="geometry" />
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Observable que al detectar un cambio actualiza el valor total de las cantidades&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1782" y="108" width="170" height="89" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-13" target="Lu1Ilyan7PfIw8aCQK2B-45">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-13" target="Lu1Ilyan7PfIw8aCQK2B-119">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-13" value="updateQuantitites(cmd, category)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1521.25" y="440" width="157.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-29" target="Lu1Ilyan7PfIw8aCQK2B-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-29" target="Lu1Ilyan7PfIw8aCQK2B-32">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;fontColor=default;" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-45" target="Lu1Ilyan7PfIw8aCQK2B-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1700" y="350" />
-              <mxPoint x="1700" y="324" />
+              <mxPoint x="1964" y="317.44" />
+              <mxPoint x="1964" y="317.44" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#6c8ebf;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#5AA9E6;fillColor=#dae8fc;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-29" target="Lu1Ilyan7PfIw8aCQK2B-122">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-45" value="getNewQuantites(category)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1768" y="277.56" width="160" height="79.75" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-29" value="Total Change subscription" style="strokeWidth=2;shape=mxgraph.flowchart.start_2;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="300" width="100" height="100" as="geometry" />
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-48" value="Por fecha y categoria, se obtienen las nuevas cantidades formateadas." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1752" y="373" width="192" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Observable que al detectar un cambio actualiza el valor de las cantidades&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="280" width="170" height="89" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-45" target="Lu1Ilyan7PfIw8aCQK2B-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2100" y="470" />
-              <mxPoint x="2100" y="470" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-45" value="getNewQuantites(category)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1904" y="430.12" width="160" height="79.75" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-48" value="Por fecha y categoria, se obtienen las nuevas cantidades formateadas." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1888" y="526" width="192" height="74" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-52" value="Nota: Solo para la variable almacenada, es decir, no agrega ni elimina cantidades" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-52" value="Nota: Solo para la variable almacenada, es decir, no agrega ni elimina cantidades" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="70" y="723.88" width="140" height="200.75" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-54" target="Lu1Ilyan7PfIw8aCQK2B-57">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-54" target="Lu1Ilyan7PfIw8aCQK2B-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-54" value="removeDate()" style="strokeWidth=2;shape=mxgraph.flowchart.start_2;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-54" value="removeDate()" style="strokeWidth=2;shape=mxgraph.flowchart.start_2;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="297.5" y="990" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-57" target="Lu1Ilyan7PfIw8aCQK2B-59">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-57" target="Lu1Ilyan7PfIw8aCQK2B-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-57" value="delete Quantities in this date" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" vertex="1" parent="1">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-57" value="delete Quantities in this date" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
           <mxGeometry x="268.75" y="1160" width="157.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-59" value="recalculateQuantitites()" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" vertex="1" parent="1">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-59" value="recalculateQuantitites()" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;arcSize=14;strokeWidth=2;fontStyle=0;labelBackgroundColor=none;labelBorderColor=none;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="1300" width="155" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-61" value="Borra el objeto Quantitites de la fecha seleccionada" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-61" value="Borra el objeto Quantitites de la fecha seleccionada" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="460" y="1170" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-62" value="Recalcula de nuevo los valores." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-62" value="Recalcula de nuevo los valores." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="460" y="1300" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-67" value="In UpdateQuantitites" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontStyle=1;fontSize=14;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1914" y="400.12" width="140" height="30" as="geometry" />
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-67" value="In UpdateQuantitites" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontStyle=1;fontSize=14;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1778" y="247.56" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-70" target="Lu1Ilyan7PfIw8aCQK2B-79">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-70" target="Lu1Ilyan7PfIw8aCQK2B-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-70" value="get Original Object" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2112" y="426.87" width="180" height="83" as="geometry" />
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-70" value="get Original Object" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1976" y="274.31" width="180" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-72" value="Se obtiene la referencia al item en el objeto original, y se le actualizan las propiedades necesarias." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2160" y="526" width="324" height="74" as="geometry" />
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-72" value="Se obtiene la referencia al item en el objeto original, y se le actualizan las propiedades necesarias." style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2024" y="373.44" width="324" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-79" value="Update in original Object, initialTon and toBeDischarge" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2328" y="430.12" width="166" height="76.25" as="geometry" />
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-79" value="Update in original Object, initialTon and toBeDischarge" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2192" y="277.56" width="166" height="76.25" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-87" target="Lu1Ilyan7PfIw8aCQK2B-32">
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-113" value="qttSetData(category)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1522.5" y="873.87" width="158.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#5AA9E6;" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-119" target="Lu1Ilyan7PfIw8aCQK2B-113" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-87" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1980" y="200.87" width="50" height="179.5" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-92" value="Ajuste directo al tonelaje de un Recibidor" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="168.11965517241384" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-95" value="Cambio de Recibidores (Add, Delete)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="248.11965517241384" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-113" value="qttSetData(category)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="663.88" width="158.75" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-116" value="Al borrar un producto" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="318.06" width="120" height="63.88" as="geometry" />
-        </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#5AA9E6;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-119" target="Lu1Ilyan7PfIw8aCQK2B-113">
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="Lu1Ilyan7PfIw8aCQK2B-119" target="i4LuS2lBlb5Qrs457-CX-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-119" value="recalculateQuantitites()" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1521.25" y="550" width="157.5" height="60" as="geometry" />
+        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-119" value="recalculateQuantitites()" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1522.5" y="740.25" width="157.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Lu1Ilyan7PfIw8aCQK2B-122" value="Dependiendo del comando, agrega, borra o actualiza las cantidades" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1282" y="24" width="192" height="192" as="geometry" />
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="i4LuS2lBlb5Qrs457-CX-3" target="i4LuS2lBlb5Qrs457-CX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="i4LuS2lBlb5Qrs457-CX-3" target="i4LuS2lBlb5Qrs457-CX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-3" value="evalProductQuantitites()" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1521.25" y="414" width="157.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-5" value="Función que lanza las funciones necesarias para actualizar un producto" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1752" y="476" width="192" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-7" value="Función que evalúa y actualiza las cantidades generales" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1752" y="593" width="192" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="i4LuS2lBlb5Qrs457-CX-9" target="i4LuS2lBlb5Qrs457-CX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-9" value="evalGeneralQuantitites()" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1521.25" y="600" width="157.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-12" value="Función que recalcula los valores internos de Quantitites" style="rounded=0;fontFamily=Helvetica;fontStyle=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacingTop=1;spacing=6;spacingLeft=-1;spacingBottom=0;spacingRight=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1752" y="733.25" width="192" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="i4LuS2lBlb5Qrs457-CX-14" value="Me gustaria añadirlo todo a un solo componente" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="900" y="732" width="492" height="288" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
